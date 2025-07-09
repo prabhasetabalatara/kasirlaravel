@@ -1,0 +1,52 @@
+# Laravel Environment
+.env
+.env.backup
+.env.production
+
+# Log & Cache
+*.log
+.phpunit.result.cache
+.phpunit.cache
+/.phpunit.cache
+
+# IDE & Editor
+/.idea
+/.vscode
+/.fleet
+/.zed
+.DS_Store
+Thumbs.db
+
+# Node & Vendor
+/node_modules
+/vendor
+
+# Laravel Storage
+/storage/*
+!/storage/app
+!/storage/app/public
+!/storage/framework
+!/storage/framework/cache
+!/storage/framework/sessions
+!/storage/framework/testing
+!/storage/framework/views
+!/storage/logs
+
+# Laravel Public Build (Vite/Webpack)
+public/build
+public/hot
+public/storage
+
+# Laravel Keys & Auth Files
+/storage/*.key
+/auth.json
+
+# PHP tools
+.phpactor.json
+
+# Homestead (jika tidak dipakai, aman diabaikan)
+Homestead.yaml
+Homestead.json
+
+# Laravel Nova (jika tidak dipakai)
+.nova
