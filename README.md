@@ -15,11 +15,13 @@ cp .env.example .env
 
 # Buat file database SQLite
 cd database
+#
 touch database/database.sqlite
 cd ..
 
 # Edit file .env dan pastikan konfigurasi database seperti berikut:
 DB_CONNECTION=sqlite
+#
 DB_DATABASE=/full/path/to/database/database.sqlite
 
 # Contoh (gantilah dengan path project kamu):
