@@ -17,6 +17,7 @@ cp .env.example .env
 cd database
 #
 touch database/database.sqlite
+#
 cd ..
 
 # Edit file .env dan pastikan konfigurasi database seperti berikut:
