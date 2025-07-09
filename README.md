@@ -19,14 +19,14 @@ touch database/database.sqlite
 cd ..
 
 # Edit file .env dan pastikan konfigurasi database seperti berikut:
-# DB_CONNECTION=sqlite
-# DB_DATABASE=/full/path/to/database/database.sqlite
-# 
+DB_CONNECTION=sqlite
+DB_DATABASE=/full/path/to/database/database.sqlite
+
 # Contoh (gantilah dengan path project kamu):
-# DB_DATABASE=database/database.sqlite
-# 
+DB_DATABASE=database/database.sqlite
+
 # Untuk Windows (gunakan double backslash atau slash biasa):
-# DB_DATABASE=C:/laragon/www/kasirlaravel/database/database.sqlite
+DB_DATABASE=C:/laragon/www/kasirlaravel/database/database.sqlite
 
 # Generate app key Laravel
 php artisan key:generate
