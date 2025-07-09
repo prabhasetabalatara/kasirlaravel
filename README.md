@@ -1,5 +1,5 @@
 🛠️ Instalasi Cepat (terminal)
-git clone https://github.com/prabhasetabalatara/kasirlaravel.git
+git clone https://github.com/prabhasetabalatara/kasirlaravel.git;
 cd kasirlaravel
 composer install
 npm install
